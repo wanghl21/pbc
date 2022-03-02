@@ -20,7 +20,14 @@
 // version 3, or (at your option) any later version.
 
 package pbc
-
+/*
+#include <pbc/pbc.h>
+struct element_s* newElementStruct() { return malloc(sizeof(struct element_s)); }
+void freeElementStruct(struct element_s* x) {
+	element_clear(x);
+	free(x);
+}
+*/
 
 import "C"
 
