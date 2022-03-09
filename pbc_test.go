@@ -532,3 +532,5 @@ func TestGC(t *testing.T) {
 		runtime.GC()
 	}
 }
+func main(){
+}
